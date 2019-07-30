@@ -1,40 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 .navbar {
+    box-sizing: border-box;
     background-color: black;
     position: fixed;
     width: 100%;
-    height: 10%;
+    height: 80px;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#logo {
+.logo {
     background-color: red;
     color: white;
+    height: 100%;
+    width: 100px;
     display: flex;
-    float: left;
+    justify-content: center;
     align-items: center;
-    padding: 10px;
-    margin: 10px;
-    width: auto;
 }
 
-#buttons {
+.buttons {
     display: flex;
-    float: right;
+    flex-direction: row;
     align-items: center;
-    width: auto;
-    padding: 10px;
 }
 li{
     display: inline;
-    float: right;
-    justify-content: space-around;
+
     text-align: center;
-    padding: 10px 12px;
+    padding-right: 20px;
 }
+li:last-child {
+    padding-right: 0;
+}
+/*li:first-child{*/
+    /*padding-right: 40px;*/
+/*}*/
+/*li:nth-child(even){*/
+    /*padding-left: 40px;*/
+/*}*/
+/*li:nth-child(odd){*/
+    /*padding-left: 40px;*/
+/*}*/
+/*li:nth-child(2){*/
+    /*background-color: green;*/
+/*}*/
 a{
     text-decoration: none;
     color: white;
 }
 ul{
-    margin: 0;
-    padding: 0;
+    list-style: none;
 }
