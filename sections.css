@@ -1,0 +1,41 @@
+.main-section{
+    height: 100vh;
+    background-color: blue;
+}
+.home {
+    background-color: #ff0;
+    display: flex;
+}
+.about {
+    background-color: #ff0000;
+    display: flex;
+}
+.projects {
+    background-color: #fff;
+}
+.contact {
+    background-color: #00ff00
+}
+.item1{
+    background-color: wheat;
+    width: 50vw;
+}
+.item2{
+    background-color: blueviolet;
+    width: 50vw;
+}
+
+.itemAbout1 {
+    background-color: #ff0000;
+    width:33.33%;
+}
+
+.itemAbout2 {
+    background-color: #aa5522;
+    width:33.33%;
+}
+
+.itemAbout3 {
+    background-color: green;
+    width:33.33%;
+}
