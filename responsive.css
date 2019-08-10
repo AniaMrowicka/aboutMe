@@ -1,0 +1,32 @@
+@media only screen and (max-width: 992px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .item1 {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .item2 {
+        height: 50vh;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 768px){
+    .about {
+        flex-direction: column;
+    }
+    .itemAbout1{
+        height: 33.33%;
+        width: 100%;
+    }
+    .itemAbout2{
+        height: 33.33%;
+        width: 100%;
+    }
+    .itemAbout3{
+        height: 33.33%;
+        width: 100%;
+    }
+}

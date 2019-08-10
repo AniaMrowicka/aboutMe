@@ -4,14 +4,17 @@
 }
 .home {
     background-color: #ff0;
-    display: flex;
+    /*display: flex;*/
+    display: none;
 }
 .about {
-    background-color: #ff0000;
-    display: flex;
+    background-color: #ff00ff;
+    /*display: flex;*/
+    display: none;
 }
 .projects {
-    background-color: #fff;
+    background-color: palevioletred;
+    display: table;
 }
 .contact {
     background-color: #00ff00
@@ -38,4 +41,26 @@
 .itemAbout3 {
     background-color: green;
     width:33.33%;
+}
+.one {
+    background-color: magenta;
+    width: 50vw;
+}
+.two {
+    background-color: brown;
+    width: 50vw;
+}
+.tree {
+    background-color: darkolivegreen;
+    width: 50vw;
+}
+.four {
+    background-color: darkseagreen;
+    width: 50vw;
+}
+
+.one-row {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
 }
