@@ -1,0 +1,73 @@
+.main-section{
+    height: 100vh;
+    background-color: white;
+}
+.home {
+    /*background-color: yellow;*/
+    display: flex;
+    margin-top: 80px;
+    /*display: none;*/
+}
+.about {
+    /*background-color: #ff00ff;*/
+    /*display: flex;*/
+    display: none;
+}
+.projects {
+    /*background-color: palevioletred;*/
+    /*display: table;*/
+    display: none;
+}
+.contact {
+    /*background-color: #00ff00;*/
+    display: none;
+}
+.item1{
+    /*background-color: red;*/
+    width: 50vw;
+}
+#form{
+    display: flex;
+       flex-direction: column;
+}
+.item2{
+    /*background-color: blueviolet;*/
+    width: 50vw;
+}
+
+.itemAbout1 {
+    /*background-color: #ff0000;*/
+    width:33.33%;
+}
+
+.itemAbout2 {
+    /*background-color: #aa5522;*/
+    width:33.33%;
+}
+
+.itemAbout3 {
+    /*background-color: green;*/
+    width:33.33%;
+}
+.one {
+    /*background-color: magenta;*/
+    width: 50vw;
+}
+.two {
+    /*background-color: brown;*/
+    width: 50vw;
+}
+.tree {
+    /*background-color: darkolivegreen;*/
+    width: 50vw;
+}
+.four {
+    /*background-color: darkseagreen;*/
+    width: 50vw;
+}
+
+.one-row {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+}

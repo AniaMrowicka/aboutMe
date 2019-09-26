@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Anna Mrowicka</title>
-    <link rel="stylesheet" type="text/css" href="nav-bar.css">
-    <link rel="stylesheet" type="text/css" href="sections.css">
-    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link rel="stylesheet" type="text/css" href="styles/nav-bar.css">
+    <link rel="stylesheet" type="text/css" href="styles/sections.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
 <body>
 <header>
@@ -30,7 +30,14 @@
     </div>
 </header>
 <section class="main-section home">
-    <div class="item1"></div>
+    <div class="item1">
+    <form id="form">
+        <p>Contact form:</p></br>
+        <input type="text" placeholder="Name" id="secondName"/>
+        <input type="text" placeholder="Second Name" id="FirstName"/>
+        <input type="email" placeholder="Email" id="Email"/>
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form></div>
     <div class="item2"></div>
 </section>
 <section class="main-section about">
@@ -49,5 +56,6 @@
 <section class="main-section contact">
 
 </section>
+<script src="form.js"></script>
 </body>
 </html>
